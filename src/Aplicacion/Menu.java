@@ -21,7 +21,11 @@ public class Menu {
             ¿Estás seguro de tu elección?\s
             1 -> Sí\s
             2 -> No""";
-
+    private static final String NOMBRE_RUTA = "C:\\Users\\pcornejo\\IdeaProjects\\Creditos\\src\\Ficheros\\";
+    public static final String  RUTA_CLIENTES_SALDO_CERO = "FicheroSaldoCero.txt";
+    public static final String  RUTA_CLIENTES_CON_CREDITO = "FicheroConCredito.txt";
+    public static final String  RUTA_CLIENTES_CON_DEBITO = "FicheroConDebito.txt";
+    public static final String  FICHERO_ENTRADA = "Fichero_Entrada.txt";
 
     public void menuPrincipal(Scanner sc) {
 
