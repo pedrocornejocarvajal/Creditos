@@ -17,10 +17,15 @@ public class GestorFichero {
         try {
             FileInputStream fis = new FileInputStream(nombreFichero);
             ObjectInputStream obs = new ObjectInputStream(fis);
-        }catch ()
+        } catch (FileNotFoundException e) {
+            throw new RuntimeException(e);
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
 
-        Return
+        return null;
     }
+
 
     public static List<Cliente> leerFichero(String nombreFichero) {
 
